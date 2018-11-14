@@ -11,7 +11,7 @@ spec:
     ports:
     - containerPort: 8080
   imagePullSecrets:
-  - name: $KUBERNETES_SECRET_NAME
+  - name: jenkinssecret
 ---
 # This is the service
 apiVersion: v1
