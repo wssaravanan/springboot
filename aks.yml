@@ -8,7 +8,6 @@ spec:
   containers:
   - name: akstest
     image: gchandru1977/springboot
-    tag: 333
     ports:
     - containerPort: 8080
   imagePullSecrets:
